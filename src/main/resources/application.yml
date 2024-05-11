@@ -2,7 +2,7 @@ spring:
   application:
     name: es-synchronizer
   datasource:
-    url: 'jdbc:mysql://${mysql.ip}:${mysql.port}/auth?createDatabaseIfNotExist=true&autoReconnect=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai'
+    url: 'jdbc:mysql://${mysql.ip}:${mysql.port}/test?createDatabaseIfNotExist=true&autoReconnect=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai'
     username: root
     password: 1234567890///
     hikari:

@@ -1,13 +1,11 @@
 package com.megvii.lbg.synchronizer.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.megvii.lbg.synchronizer.util.ISOStringToLocalDateTime;
 import com.megvii.lbg.synchronizer.util.LocalDateTimeToISOString;
-import com.megvii.lbg.synchronizer.util.LocalDateTimeToTimestamp;
-import com.megvii.lbg.synchronizer.util.TimestampToLocalDateTime;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -22,7 +20,6 @@ import java.time.LocalDateTime;
  * @date 2024-05-10 09:59
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
-//@Document(indexName = "operation_log", createIndex = false)
 @Data
 @Builder
 @AllArgsConstructor

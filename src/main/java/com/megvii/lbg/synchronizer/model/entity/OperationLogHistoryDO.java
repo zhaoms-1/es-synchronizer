@@ -1,13 +1,8 @@
 package com.megvii.lbg.synchronizer.model.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.megvii.lbg.synchronizer.util.LocalDateTimeToTimestamp;
-import com.megvii.lbg.synchronizer.util.TimestampToLocalDateTime;
+
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 import java.time.LocalDateTime;
 
