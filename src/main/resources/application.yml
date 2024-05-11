@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: es-synchronizer
+  datasource:
+    url: 'jdbc:mysql://${mysql.ip}:${mysql.port}/auth?createDatabaseIfNotExist=true&autoReconnect=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai'
+    username: root
+    password: 1234567890///
+    hikari:
+      minimum-idle: '50'
+      maximum-pool-size: '50'
+      auto-commit: true
+      idle-timeout: '30000'
+      pool-name: auth
+      max-lifetime: '1800000'
+      connection-timeout: '30000'
+      connection-test-query: SELECT 1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: info
+
+
+mysql:
+  ip: 10.117.52.38
+  port: '3306'
+
+elasticsearch:
+  uris: http://localhost:9200
+  connTimeout: 3000
+  socketTimeout: 5000
+  connectionRequestTimeout: 500
