@@ -22,12 +22,7 @@ import java.util.Collections;
 import java.util.List;
 
 
-/**
- * 这里添加类的注释【强制】
- *
- * @author zhaomaosong@megvii.com
- * @date 2024-05-11 10:08
- */
+
 @Slf4j
 @Service
 public class OperationLogEsServerImpl implements OperationLogEsServer {

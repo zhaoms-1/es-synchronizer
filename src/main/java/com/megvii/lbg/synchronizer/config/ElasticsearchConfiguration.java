@@ -15,12 +15,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * 这里添加类的注释【强制】
- *
- * @author zhaomaosong@megvii.com
- * @date 2024-05-11 09:57
- */
+
 @Configuration
 public class ElasticsearchConfiguration {
 

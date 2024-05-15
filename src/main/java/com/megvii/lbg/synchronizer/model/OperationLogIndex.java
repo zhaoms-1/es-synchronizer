@@ -13,12 +13,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-/**
- * 这里添加类的注释【强制】
- *
- * @author zhaomaosong@megvii.com
- * @date 2024-05-10 09:59
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Data
 @Builder

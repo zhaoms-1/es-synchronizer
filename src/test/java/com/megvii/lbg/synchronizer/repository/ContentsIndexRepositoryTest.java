@@ -16,12 +16,7 @@ import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * 这里添加类的注释【强制】
- *
- * @author zhaomaosong@megvii.com
- * @date 2024-05-09 19:27
- */
+
 @SpringBootTest
 public class ContentsIndexRepositoryTest {
 
